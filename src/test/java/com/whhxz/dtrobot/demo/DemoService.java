@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class DemoService {
-    @DingTalkMsg()
+    @DingTalkMsg(at = "xuzhuo")
     public void m() {
         int i = 1 / 0;
     }
